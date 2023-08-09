@@ -44,7 +44,7 @@ def xox_start(m, n, score_X, score_Y, xox_array1):
                 xox_array[1] == xox_array[4] == xox_array[7] == "X") or (
                 xox_array[2] == xox_array[5] == xox_array[8] == "X"):
             print("Winner is player X !!!!")
-            for i in range(0, 9):
+            for i in range(0,9):
                 xox_array[i] = xox_array1[i]
             score_X += 1
             n = 0
